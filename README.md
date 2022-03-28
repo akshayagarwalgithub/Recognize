@@ -43,7 +43,7 @@ Available below are all the detailed steps to use this project.
 <br />   
    
 ## :wrench: Dependencies and Installation
-- Python >= 3.7 (Required)
+- Python >= 3.7 (**Required**)
 
 
 ### Installation
@@ -55,7 +55,7 @@ Available below are all the detailed steps to use this project.
     cd Recognize
     ```
 
-1. Install required packages
+1. **Install required packages** (depending on your local setup, feel free to use pip or pip3 whichever is suitable for your setup. Make sure you are using Python >=3.7)
 
     ```bash
     # Install cmake
@@ -107,6 +107,7 @@ Once the training is successfully complete, execute the following command and th
 ```
 python recognition.py
 ```
+This would activate the webcam. On mac, you might need to authorize access to web cam, so please do so and then execute.  
 Bring the person(whose images were used for training) in front of the webcam, to get recognized :sparkles:
 
 To close the active webcam window appearing on your screen, press **'x'** key on your keyboard at any time.

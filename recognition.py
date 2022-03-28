@@ -17,7 +17,7 @@ root_dir=get_project_root()
 
 conf_variables=get_configuration()
 
-camera=cv2.VideoCapture(0,cv2.CAP_DSHOW)
+camera=cv2.VideoCapture(0)
 encode_list_known_file_path=root_dir/conf_variables['training_dir']['path']/conf_variables['encode_list_known_file']['path']
 encode_list_known_file=Path(encode_list_known_file_path)
 
