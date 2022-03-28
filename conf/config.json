@@ -1,0 +1,17 @@
+{
+  "training_dir": {
+    "path": "training"
+  },
+  "class_names_file": {
+    "path": "classNames.pkl"
+  },
+  "encode_list_known_file": {
+    "path": "encodeListKnown.pkl"
+  },
+  "images_metadata_file": {
+    "path": "imagesMetadata.json"
+  },
+  "input_images_dir": {
+    "path": "input_images"
+  }
+}
