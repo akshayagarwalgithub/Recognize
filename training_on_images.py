@@ -198,7 +198,8 @@ def main():
 
         logger.debug("Write to images metadata json is complete")
 
-        logger.info(colorama.Fore.BLACK + colorama.Style.BRIGHT + colorama.Back.GREEN + "\n                 SUCCESS                 " + colorama.Fore.RESET)
+        logger.info(
+            colorama.Fore.GREEN + "\nSUCCESS" + colorama.Fore.RESET)
         logger.info("Training on images completed successfully.")
     else:
         logger.warning("\nNo new images(different from previously trained images) available to train on.")

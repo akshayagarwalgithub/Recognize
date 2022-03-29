@@ -11,7 +11,7 @@ log_initiator=LogInstantiator()
 logger=log_initiator.get_logger(__name__)
 
 logger.info("Starting to Capture Video from camera.")
-logger.info("\nTo stop video capture press 'x' key on your keyboard")
+logger.info("\nTo stop video capture, click anywhere on Webcam window and press 'x' key on your keyboard")
 
 root_dir=get_project_root()
 
