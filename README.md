@@ -8,7 +8,7 @@ Recognize is a facial recognition tool. It facilitates facial recognition using 
 
 
 
-To recognize a person named John Doe, Recognize requires the following 3 steps:
+To recognize a person named John Doe, it requires the following 3 steps:
 
 - Create a directory named John. Load John's images inside John directory.
 - Execute one training script, to let Recognize get familiar with John's face.
@@ -43,6 +43,8 @@ Available below are all the detailed steps to use this project.
 <br />   
    
 ## :wrench: Dependencies and Installation
+
+### Requirement  
 - Python >= 3.7 (**Required**)
 
 
@@ -95,7 +97,7 @@ An example of such name directory hierarchy is shown below:
 
 <img src="https://user-images.githubusercontent.com/34087302/159601962-e6f59ccf-ecf5-4ef5-bce6-e3b5b65c9e28.PNG" width="500" height="300">
 
-4. Once the images are loaded in the name folders, execute the following command:
+4. Once the images are loaded in the name folders, execute the following command (feel free to use _python_ or _python3_ based on your Python 3 setup):
     ```
     cd Recognize
     python training_on_images.py
@@ -107,17 +109,17 @@ Once the training is successfully complete, execute the following command and th
 ```
 python recognition.py
 ```
-This would activate the webcam. On mac, you might need to authorize access to web cam, so please do so and then execute.  
+As this would activate the webcam, you might need to authorize access to webcam, so please do so and then execute.  
 Bring the person(whose images were used for training) in front of the webcam, to get recognized :sparkles:
 
-To close the active webcam window appearing on your screen, press **'x'** key on your keyboard at any time.
+To close the active webcam window appearing on your screen, click anywhere on Webcam window and then press **'x'** key on your keyboard at any time.
 
 <br />  
 
 ## :loudspeaker: Key points to remember
 
 1. Recognize should be trained for the person you finally want to be recognized.
-2. The training images should be individual image of each person. Group photos should not be used.
+2. The training images should be solo image of each person. Group photos should not be used.
 3. It is best to use good quality photos, with visible face.
 4. The better(more number of images) the training, the stronger would be the prediction.
 5. The name which you choose for a person's name directory, the same name would be displayed during recognition. If the name is too long, please choose a shorter version.
