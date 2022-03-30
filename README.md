@@ -4,7 +4,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/34087302/159622141-50bf479b-63ea-4716-9874-7cae6b7f47e0.PNG" width="500" height="125"></p>
 
 
-Recognize is a facial recognition tool. It facilitates facial recognition using 3 simple steps. 
+Recognize is a Machine Learning & Computer Vision based facial recognition tool. It facilitates facial recognition using 3 steps. 
 
 
 
