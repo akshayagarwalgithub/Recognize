@@ -43,8 +43,14 @@ Available below are all the detailed steps to use this project.
    
 ## :wrench: Dependencies and Installation
 
-### Requirement  
-- Python >= 3.7 (**Required**)
+### Prerequisites  
+ 1. Python >= 3.7  
+ 
+ 2. C++ Compiler :point_down:  
+    - **On Windows OS, Visual Studio for C++ is required.**   
+    I have created this [quick video](https://drive.google.com/file/d/12uUDyZvTA9H2ysjUPiEnIYBavQQK7Vx9/view?usp=sharing) which you can use to easily install it.  
+    
+    - On macOS install XCode, which should take care of required compiler utilities.
 
 
 ### Installation
@@ -59,18 +65,14 @@ Available below are all the detailed steps to use this project.
 1. **Install required packages** (depending on your local setup, feel free to use pip or pip3 whichever is suitable for your setup. Make sure you are using Python >=3.7)
 
     ```bash
-    # Install cmake
     pip install cmake
 
     # Recognize uses face-recognition and internally dlib's deep learning models.
+    
     pip install dlib
-
     pip install face-recognition
-    
     pip install numpy
-     
     pip install opencv-python
-    
     pip install colorama
     ```
 <br />
@@ -95,9 +97,8 @@ An example of such name directory hierarchy is shown below:
 
 <img src="https://user-images.githubusercontent.com/34087302/159601962-e6f59ccf-ecf5-4ef5-bce6-e3b5b65c9e28.PNG" width="500" height="300">
 
-4. Once the images are loaded in the name folders, execute the following command to perform training (please feel free to use _python_ or _python3_ based on your Python 3 setup):
+4. Once the images are loaded in the name folders, execute the training_on_images.py script as follows, to perform training (please feel free to use _python_ or _python3_ based on your Python 3 setup):
     ```
-    cd Recognize
     python training_on_images.py
     ```
 <br />
